@@ -1,0 +1,12 @@
+version: "2"
+services:
+  rails:
+    image: rails:4.2.0
+    volumes:
+      - ${PWD}:/usr/src/app
+    working_dir: /usr/src/app
+  bundle:
+    image: ruby:2.2.0
+    volumes:
+      - ${PWD}:/usr/src/app
+    working_dir: /usr/src/app

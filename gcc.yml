@@ -1,0 +1,7 @@
+version: '2'
+services:
+  gcc:
+    image: gcc
+    volumes:
+      - ${PWD}:/usr/src/myapp
+    working_dir: /usr/src/myapp

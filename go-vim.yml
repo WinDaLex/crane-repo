@@ -1,0 +1,7 @@
+version: "2"
+services:
+    vim:
+        image: mbrt/golang-vim-dev
+        volumes:
+            - ${PWD}:/go
+        working_dir: /go

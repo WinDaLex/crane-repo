@@ -1,0 +1,4 @@
+version: '2'
+services:
+  ipython:
+    image: jupyter/base-notebook

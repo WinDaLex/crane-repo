@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ruby:
+    image: ruby
+    volumes:
+      - $PWD:/usr/src/myapp
+    working_dir: /usr/src/myapp
+  irb:
+    image: ruby
